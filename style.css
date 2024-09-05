@@ -84,7 +84,7 @@ form button{
 /* Media Query for Tablets and Smaller Screens */
 @media (max-width: 900px) {
     #search-result {
-        grid-template-columns: repeat(2, 1fr); /* Two columns for medium-sized screens */
+        grid-template-columns: repeat(1fr, 1fr); /* Two columns for medium-sized screens */
     }
 
     form {
@@ -101,7 +101,7 @@ form button{
 
     form button {
         width: 100%; /* Full-width button for better usability */
-        padding: 15px; /* Extra padding for better fit */
+        padding: 20px; /* Extra padding for better fit */
         font-size: 16px; /* Slightly smaller font size */
     }
 
@@ -120,21 +120,21 @@ form button{
     }
 
     form input {
-        padding: 10px;
-        font-size: 16px;
+        padding: 20px;
+        font-size: 18px;
         border-radius: 8px; /* Added border radius */
-        margin-bottom: 10px; /* Add margin to separate from the button */
+        margin-bottom: 15px; /* Add margin to separate from the button */
     }
 
     form button {
-        padding: 10px 20px; /* Decrease padding */
-        font-size: 16px;
+        padding: 18px 27px; /* Decrease padding */
+        font-size: 18px;
         border-radius: 8px; /* Added border radius */
         width: auto; /* Adjust width to fit content */
     }
 
     #search-result {
-        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        grid-template-columns: repeat(1fr, 1fr); /* Two columns */
     }
 
     #search-result img {
@@ -145,7 +145,7 @@ form button{
 @media (max-width: 400px) {
     form input,
     form button {
-        font-size: 14px;
-        padding: 10px 20px;
+        font-size: 15px;
+        padding: 14px 24px;
     }
 }
