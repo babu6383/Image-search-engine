@@ -125,16 +125,18 @@ form button{
     form input {
         padding: 20px 20px; /* Adjust padding for better fit */
         font-size: 18px; /* Smaller font size for mobile */
+        height: 30px;
     }
 
     form button {
         width: 100%; /* Full-width button for better usability */
         padding: 30px; /* Adjust button padding */
         font-size: 14px; /* Smaller font size for mobile */
+        height: 30px;
     }
 
     #search-result img {
-        height: 150px; /* Further adjust image height for smaller screens */
+        height: 200px; /* Further adjust image height for smaller screens */
     }
 }
 
