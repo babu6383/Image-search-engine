@@ -123,13 +123,13 @@ form button{
     }
 
     form input {
-        padding: 20px; /* Adjust padding for better fit */
-        font-size: 14px; /* Smaller font size for mobile */
+        padding: 20px 20px; /* Adjust padding for better fit */
+        font-size: 18px; /* Smaller font size for mobile */
     }
 
     form button {
         width: 100%; /* Full-width button for better usability */
-        padding: 10px; /* Adjust button padding */
+        padding: 30px; /* Adjust button padding */
         font-size: 14px; /* Smaller font size for mobile */
     }
 
