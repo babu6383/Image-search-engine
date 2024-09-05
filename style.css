@@ -93,7 +93,7 @@ form button{
     }
 
     form input {
-        padding: 10px; /* Adjust padding for better fit */
+        padding: 20px; /* Adjust padding for better fit */
         font-size: 16px; /* Slightly smaller font size */
     }
 
@@ -103,6 +103,7 @@ form button{
         border-bottom-right-radius: 0; /* Remove bottom-right border radius */
         border-top-left-radius: 8px; /* Add top-left border radius */
         border-bottom-left-radius: 8px; /* Add bottom-left border radius */
+        padding: 20px;
     }
 
     #search-result img {
@@ -122,7 +123,7 @@ form button{
     }
 
     form input {
-        padding: 10px; /* Adjust padding for better fit */
+        padding: 20px; /* Adjust padding for better fit */
         font-size: 14px; /* Smaller font size for mobile */
     }
 
