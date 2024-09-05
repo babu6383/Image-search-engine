@@ -95,6 +95,7 @@ form button{
     form input {
         padding: 20px; /* Adjust padding for better fit */
         font-size: 16px; /* Slightly smaller font size */
+        height: 40px;
     }
 
     form button {
@@ -104,6 +105,7 @@ form button{
         border-top-left-radius: 8px; /* Add top-left border radius */
         border-bottom-left-radius: 8px; /* Add bottom-left border radius */
         padding: 20px;
+        height: 40px;
     }
 
     #search-result img {
@@ -146,9 +148,10 @@ form button{
     form button {
         font-size: 12px; /* Smaller font size for very small screens */
         padding: 8px; /* Adjust padding for very small screens */
+        height: 40px;
     }
 
     #search-result img {
-        height: 120px; /* Further adjust image height for very small screens */
+        height: 150px; /* Further adjust image height for very small screens */
     }
 }
