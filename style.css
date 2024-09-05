@@ -85,37 +85,45 @@ form button{
 
 @media (max-width: 1200px) {
     #search-result {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
     }
+    
+
 }
 
 @media (max-width: 900px) {
     #search-result {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 600px) {
     form {
-        flex-direction: column;
+        flex-direction: row; /* Ensure side-by-side layout */
         height: auto;
+        width: 100%;
     }
 
     form input {
+        flex: 1;
         padding: 10px;
         font-size: 16px;
+        margin: 0;
     }
 
     form button {
-        width: 100%;
-        border-top-right-radius: 0;
-        border-bottom-right-radius: 0;
-        border-top-left-radius: 8px;
-        border-bottom-left-radius: 8px;
+        width: auto; /* Remove width 100% */
+        flex-shrink: 0;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
     }
 
     #search-result {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     #search-result img {
@@ -127,6 +135,6 @@ form button{
     form input,
     form button {
         font-size: 14px;
-        padding: 10px 20px;
+        padding: 8px 15px; /* Adjust padding for smaller screens */
     }
 }
