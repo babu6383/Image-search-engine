@@ -90,22 +90,19 @@ form button{
     form {
         flex-direction: column; /* Stack input and button vertically */
         height: auto; /* Allow form height to adjust based on content */
+        padding: 10px; /* Add padding around the form */
     }
 
     form input {
-        padding: 20px; /* Adjust padding for better fit */
+        padding: 15px; /* Extra padding for better fit */
         font-size: 16px; /* Slightly smaller font size */
-        height: 40px;
+        margin-bottom: 10px; /* Add margin between input and button */
     }
 
     form button {
         width: 100%; /* Full-width button for better usability */
-        border-top-right-radius: 0; /* Remove top-right border radius */
-        border-bottom-right-radius: 0; /* Remove bottom-right border radius */
-        border-top-left-radius: 8px; /* Add top-left border radius */
-        border-bottom-left-radius: 8px; /* Add bottom-left border radius */
-        padding: 20px;
-        height: 40px;
+        padding: 15px; /* Extra padding for better fit */
+        font-size: 16px; /* Slightly smaller font size */
     }
 
     #search-result img {
@@ -122,23 +119,23 @@ form button{
     form {
         flex-direction: column; /* Stack input and button vertically */
         height: auto; /* Allow form height to adjust based on content */
+        padding: 10px; /* Add padding around the form */
     }
 
     form input {
-        padding: 20px 20px; /* Adjust padding for better fit */
-        font-size: 18px; /* Smaller font size for mobile */
-        height: 30px;
+        padding: 20px; /* Extra padding for better fit */
+        font-size: 14px; /* Smaller font size for mobile */
+        margin-bottom: 12px; /* Add margin between input and button */
     }
 
     form button {
         width: 100%; /* Full-width button for better usability */
-        padding: 30px; /* Adjust button padding */
+        padding: 20px; /* Extra padding for better fit */
         font-size: 14px; /* Smaller font size for mobile */
-        height: 30px;
     }
 
     #search-result img {
-        height: 200px; /* Further adjust image height for smaller screens */
+        height: 150px; /* Further adjust image height for smaller screens */
     }
 }
 
@@ -147,11 +144,14 @@ form button{
     form input,
     form button {
         font-size: 12px; /* Smaller font size for very small screens */
-        padding: 8px; /* Adjust padding for very small screens */
-        height: 40px;
+        padding: 12px; /* Extra padding for very small screens */
+    }
+
+    form input {
+        margin-bottom: 15px; /* Increase margin between input and button */
     }
 
     #search-result img {
-        height: 150px; /* Further adjust image height for very small screens */
+        height: 120px; /* Further adjust image height for very small screens */
     }
 }
