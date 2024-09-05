@@ -81,60 +81,71 @@ form button{
 
 
 
-/* Media Queries for Responsive Design */
-
-@media (max-width: 1200px) {
-    #search-result {
-        grid-template-columns: repeat(3, 1fr);
-    }
-    
-
-}
-
+/* Media Query for Tablets and Smaller Screens */
 @media (max-width: 900px) {
     #search-result {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr); /* Two columns for medium-sized screens */
     }
-}
 
-@media (max-width: 600px) {
     form {
-        flex-direction: row; /* Ensure side-by-side layout */
-        height: auto;
-        width: 100%;
+        flex-direction: column; /* Stack input and button vertically */
+        height: auto; /* Allow form height to adjust based on content */
     }
 
     form input {
-        flex: 1;
-        padding: 10px;
-        font-size: 16px;
-        margin: 0;
+        padding: 10px; /* Adjust padding for better fit */
+        font-size: 16px; /* Slightly smaller font size */
     }
 
     form button {
-        width: auto; /* Remove width 100% */
-        flex-shrink: 0;
-        padding: 20px 20px;
-        font-size: 16px;
-        border-top-right-radius: 8px;
-        border-bottom-right-radius: 8px;
-        border-top-left-radius: 0;
-        border-bottom-left-radius: 0;
-    }
-
-    #search-result {
-        grid-template-columns: repeat(2, 1fr);
+        width: 100%; /* Full-width button for better usability */
+        border-top-right-radius: 0; /* Remove top-right border radius */
+        border-bottom-right-radius: 0; /* Remove bottom-right border radius */
+        border-top-left-radius: 8px; /* Add top-left border radius */
+        border-bottom-left-radius: 8px; /* Add bottom-left border radius */
     }
 
     #search-result img {
-        height: 150px;
+        height: 180px; /* Adjust image height for smaller screens */
     }
 }
 
+/* Media Query for Mobile Phones */
+@media (max-width: 600px) {
+    #search-result {
+        grid-template-columns: repeat(1, 1fr); /* Single column layout for small screens */
+    }
+
+    form {
+        flex-direction: column; /* Stack input and button vertically */
+        height: auto; /* Allow form height to adjust based on content */
+    }
+
+    form input {
+        padding: 10px; /* Adjust padding for better fit */
+        font-size: 14px; /* Smaller font size for mobile */
+    }
+
+    form button {
+        width: 100%; /* Full-width button for better usability */
+        padding: 10px; /* Adjust button padding */
+        font-size: 14px; /* Smaller font size for mobile */
+    }
+
+    #search-result img {
+        height: 150px; /* Further adjust image height for smaller screens */
+    }
+}
+
+/* Media Query for Extra Small Devices */
 @media (max-width: 400px) {
     form input,
     form button {
-        font-size: 14px;
-        padding: 10px 10px; /* Adjust padding for smaller screens */
+        font-size: 12px; /* Smaller font size for very small screens */
+        padding: 8px; /* Adjust padding for very small screens */
+    }
+
+    #search-result img {
+        height: 120px; /* Further adjust image height for very small screens */
     }
 }
