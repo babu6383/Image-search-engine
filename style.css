@@ -84,7 +84,7 @@ form button{
 /* Media Query for Tablets and Smaller Screens */
 @media (max-width: 900px) {
     #search-result {
-        grid-template-columns: repeat(1fr, 1fr); /* Two columns for medium-sized screens */
+        grid-template-columns: repeat(1, 1fr); /* Two columns for medium-sized screens */
     }
 
     form {
@@ -106,7 +106,7 @@ form button{
     }
 
     #search-result img {
-        height: 180px; /* Adjust image height for smaller screens */
+        height: 200px; /* Adjust image height for smaller screens */
     }
 }
 
@@ -134,11 +134,11 @@ form button{
     }
 
     #search-result {
-        grid-template-columns: repeat(1fr, 1fr); /* Two columns */
+        grid-template-columns: repeat(1, 1fr); /* Two columns */
     }
 
     #search-result img {
-        height: 150px; /* Adjust height for smaller screens */
+        height: 180px; /* Adjust height for smaller screens */
     }
 }
 
