@@ -127,7 +127,7 @@ form button{
     }
 
     form button {
-        padding: 18px 27px; /* Decrease padding */
+        padding: 18px 35px; /* Decrease padding */
         font-size: 18px;
         border-radius: 8px; /* Added border radius */
         width: auto; /* Adjust width to fit content */
